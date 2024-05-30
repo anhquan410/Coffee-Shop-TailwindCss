@@ -34,8 +34,14 @@
   @apply uppercase mx-3 tracking-widest text-gray-500 font-medium text-sm text-center;
 }
 .ct-explore-mug-button {
-  @apply  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 rounded-md text-center uppercase tracking-wider px-8 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-90 hover:text-coffee-400;
+  @apply bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 rounded-md text-center uppercase tracking-wider px-8 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-90 hover:text-coffee-400;
 }
 .ct-on-sale {
-  @apply  bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md;
+  @apply bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400 rounded-md;
+}
+.discount-price {
+  @apply ml-2 text-gray-400 line-through;
+}
+.ct-product-card {
+  @apply mb-10;
 }
