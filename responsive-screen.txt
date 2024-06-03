@@ -1,0 +1,5 @@
+sm: 640px   60% 400px
+md: 768px   60% 450px
+lg: 1024px  60% 600px
+xl: 1280px
+2xl: 1536px

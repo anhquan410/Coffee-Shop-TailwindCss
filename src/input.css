@@ -23,7 +23,9 @@
 .ct-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
 }
-
+.slider {
+  @apply h-[530px] bg-slider-bg bg-cover bg-no-repeat bg-bottom rounded-md;
+}
 .ct-subheadline {
   @apply flex justify-center items-center mb-24;
 }
@@ -47,6 +49,12 @@
 }
 .lifestyle-stories-card {
   @apply mb-10;
+}
+.coffee-magazine-large-img {
+  @apply h-[280px] bg-no-repeat bg-cover bg-center rounded-md;
+}
+.coffee-magazine-small-img {
+  @apply h-[130px] bg-no-repeat bg-cover bg-center rounded-md;
 }
 .lifestyle-stories-img {
   @apply h-[250px] xl:h-[300px] bg-no-repeat bg-cover bg-center rounded-md;
