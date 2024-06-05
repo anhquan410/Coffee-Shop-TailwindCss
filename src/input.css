@@ -71,3 +71,10 @@
 .lifestyle-stories-date {
   @apply uppercase text-gray-400 font-bold text-xs tracking-[0.2em] text-center lg:text-left;
 }
+/* subscribe-us */
+.ct-form-input {
+  @apply px-6 py-4 w-[50vw] md:max-w-[350px]  bg-inherit border-[1px] border-gray-700 hover:border-gray-400 hover:transition-all hover:ease-in-out hover:duration-700 focus:border-gray-400 outline-none text-white rounded-sm placeholder:uppercase placeholder:tracking-widest placeholder:text-sm placeholder:font-semibold;
+}
+.ct-form-button {
+  @apply uppercase bg-white text-gray-900 w-[50vw] md:w-max min-h-[58px] tracking-wider px-7 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-95 rounded-sm;
+}
