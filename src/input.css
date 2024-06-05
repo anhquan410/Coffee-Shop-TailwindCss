@@ -78,3 +78,10 @@
 .ct-form-button {
   @apply uppercase bg-white text-gray-900 w-[50vw] md:w-max min-h-[58px] tracking-wider px-7 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-95 rounded-sm;
 }
+/* footer */
+.footer-title {
+  @apply uppercase text-xs font-bold text-gray-500 mb-10 mt-6 lg:mt-0 lg:mb-6 tracking-widest;
+}
+.footer-item a {
+  @apply text-sm leading-5 text-gray-400 font-medium  hover:text-coffee-400 duration-500 transition-all ease-in-out;
+}
